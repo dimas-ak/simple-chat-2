@@ -1,0 +1,123 @@
+/*
+  DEVELOPED BY : DIMAS AWANG KUSUMA
+*/
+@import "variable";
+html,body
+{width:100%;height:100%;overflow:auto;}
+
+body *, body *:before, body *:after
+{@include box-sizing(inherit);}
+
+[class*="col-"],
+[class^="col-"]{
+   float:left;
+   padding:5px;
+}
+
+@include selection();
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: inherit;
+	font: inherit;
+	vertical-align: baseline;
+}
+strong{font-weight:bold;}
+h1 { font-size: 2em; }
+h2 { font-size: 1.5em; }
+h3 { font-size: 1.17em; }
+h4 { font-size: 1.12em; }
+h5 { font-size: .83em; }
+h6 { font-size: .75em; }
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.clearfix 
+{
+    *zoom: 1;
+    &:after, &:before{content: " "; display: table;}
+    &:after{clear:both;}
+
+}
+.container{position:relative;background:none;text-align:left;@include box-sizing(border-box);}
+.wrap{margin:10px;position:relative;}
+
+.form-col
+{
+	margin-bottom:10px;
+}
+
+/*width:8.333333333333332%;*/
+.col-1{width:percentage((1/12));}
+/*width:16.666666666666664%;*/
+.col-2{width:percentage((2/12));}
+/*width:25%;*/
+.col-3{width:percentage((3/12));}
+/*width:33.33333333333333%;*/
+.col-4{width:percentage((4/12));}
+/*width:41.66666666666667%;*/
+.col-5{width:percentage((5/12));}
+/*width:50%;*/
+.col-6{width:percentage((6/12));} 
+ /*width:58.333333333333336%;*/
+.col-7{width:percentage((7/12));}
+/*width:66.66666666666666%;*/
+.col-8{width:percentage((8/12));}
+/*width:75%;*/
+.col-9{width:percentage((9/12));}
+/*width:83.33333333333334%;*/
+.col-10{width:percentage((10/12));}
+/*width:91.66666666666666%;*/
+.col-11{width:percentage((11/12));}
+/*width:100%;*/
+.col-12{width:percentage((12/12));}
+
+.f-input
+{
+	margin-bottom:10px;
+	span,label{display:inline-block;margin-bottom:5px;}
+	input,textarea{width:100%;padding:10px;}
+}
+
+.left{float:left;}
+.right{float:right;}
+
+.none{display:none;}
+
+.text-left{text-align:left;}
+.text-right{text-align:right;}
+.center{text-align:center;}

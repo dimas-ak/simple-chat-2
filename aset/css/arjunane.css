@@ -1,0 +1,252 @@
+/*
+  DEVELOPED BY : DIMAS AWANG KUSUMA
+*/
+html, body {
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+}
+
+body *, body *:before, body *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  -ms-box-sizing: inherit;
+  -o-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+[class*=col-],
+[class^=col-] {
+  float: left;
+  padding: 5px;
+}
+
+::selection {
+  background-color: #E13300;
+  color: white;
+}
+
+::-moz-selection {
+  background-color: #E13300;
+  color: white;
+}
+
+::-webkit-selection {
+  background-color: #E13300;
+  color: white;
+}
+
+::-o-selection {
+  background-color: #E13300;
+  color: white;
+}
+
+::-ms-selection {
+  background-color: #E13300;
+  color: white;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: inherit;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+strong {
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+h3 {
+  font-size: 1.17em;
+}
+
+h4 {
+  font-size: 1.12em;
+}
+
+h5 {
+  font-size: 0.83em;
+}
+
+h6 {
+  font-size: 0.75em;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.clearfix {
+  *zoom: 1;
+}
+.clearfix:after, .clearfix:before {
+  content: " ";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+
+.container {
+  position: relative;
+  background: none;
+  text-align: left;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.wrap {
+  margin: 10px;
+  position: relative;
+}
+
+.form-col {
+  margin-bottom: 10px;
+}
+
+/*width:8.333333333333332%;*/
+.col-1 {
+  width: 8.3333333333%;
+}
+
+/*width:16.666666666666664%;*/
+.col-2 {
+  width: 16.6666666667%;
+}
+
+/*width:25%;*/
+.col-3 {
+  width: 25%;
+}
+
+/*width:33.33333333333333%;*/
+.col-4 {
+  width: 33.3333333333%;
+}
+
+/*width:41.66666666666667%;*/
+.col-5 {
+  width: 41.6666666667%;
+}
+
+/*width:50%;*/
+.col-6 {
+  width: 50%;
+}
+
+/*width:58.333333333333336%;*/
+.col-7 {
+  width: 58.3333333333%;
+}
+
+/*width:66.66666666666666%;*/
+.col-8 {
+  width: 66.6666666667%;
+}
+
+/*width:75%;*/
+.col-9 {
+  width: 75%;
+}
+
+/*width:83.33333333333334%;*/
+.col-10 {
+  width: 83.3333333333%;
+}
+
+/*width:91.66666666666666%;*/
+.col-11 {
+  width: 91.6666666667%;
+}
+
+/*width:100%;*/
+.col-12 {
+  width: 100%;
+}
+
+.f-input {
+  margin-bottom: 10px;
+}
+.f-input span, .f-input label {
+  display: inline-block;
+  margin-bottom: 5px;
+}
+.f-input input, .f-input textarea {
+  width: 100%;
+  padding: 10px;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.none {
+  display: none;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.center {
+  text-align: center;
+}
